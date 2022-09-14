@@ -5,6 +5,8 @@ x = -b / a
 
 $a = rand(0, 10);
 $b = 5;
+echo $a;
+echo "\n";
 
 if ($a != 0) {
     $x = -$b / $a;
