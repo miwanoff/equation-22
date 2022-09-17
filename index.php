@@ -10,7 +10,7 @@ echo "\n";
 
 if ($a != 0) {
     $x = -$b / $a;
-    echo "<span style = \" color: blue;\">Корень рівняння:</span>" . $x;
+    echo "<span style = \" color: blue;\">Корень рівняння: $x</span> ";
 } else {
-    echo "Помилка";
+    echo 'Помилка';
 }
